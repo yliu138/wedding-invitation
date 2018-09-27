@@ -24,7 +24,6 @@ export default function ProfileCard(props) {
         </Row>
         <Row className="pt-4">
           <Col>
-            <p className="mb-1">{father},{mother}의 {position}</p>
             <h4>{name}</h4>
           </Col>
         </Row>

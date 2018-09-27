@@ -37,8 +37,8 @@ export default {
     image: require('./Image/bridal.jpeg'),
     phone: '+61430055087',
     facebook: false, // if false, not showing facebook icon
-    father: 'Chunhua Jiang',
-    mother: 'Xiangjian Guan',
+    father: '',
+    mother: '',
     position: ''
   },
   groom: {
@@ -46,8 +46,8 @@ export default {
     image: require('./Image/groom.jpeg'),
     phone: '+61423226733',
     facebook: false,
-    father: 'Chun Liu',
-    mother: 'Ming Yang',
+    father: '',
+    mother: '',
     position: '',
   },
   image: {
