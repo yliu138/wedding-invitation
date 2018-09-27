@@ -32,7 +32,7 @@
     "eject": "react-scripts eject",
     "cp": "rm -rf ../wedding-invitation && cp -R ./build ../wedding-invitation",
     "deploy-customised": "cd ../wedding-invitation && git init && gg c initialised the page && git remote add origin git@github.com:yliu138/yliu138.github.io.git && git push --set-upstream origin master --force",
-    "prod": "npm run cp && npm run deploy-customised"
+    "prod": "npm run build-customised && npm run cp && npm run deploy-customised"
   },
   "devDependencies": {
     "eslint": "^4.13.1",
