@@ -10,10 +10,10 @@ export default function Profile(props) {
   return (
     <Row className="mt-3 mb-5">
       <Col>
-        <ProfileCard profile={bridal} />
+        <ProfileCard profile={groom} />
       </Col>
       <Col>
-        <ProfileCard profile={groom} />
+        <ProfileCard profile={bridal} />
       </Col>
     </Row>
   );
