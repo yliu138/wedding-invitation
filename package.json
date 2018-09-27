@@ -1,5 +1,5 @@
 {
-  "name": "react-wedding-card",
+  "name": "",
   "description": "Simple Wedding Card by React.js",
   "homepage": "https://yliu138.github.io/",
   "repository": {
@@ -27,9 +27,12 @@
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "build-customised": "PUBLIC_URL=https://yliu138.github.io npm run build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "cp": "rm -rf ../wedding-invitation & cp -R ./build ../wedding-invitation"
+    "cp": "rm -rf ../wedding-invitation && cp -R ./build ../wedding-invitation",
+    "deploy-customised": "cd ../wedding-invitation && git init && gg c initialised the page && git remote add origin git@github.com:yliu138/yliu138.github.io.git && git push --set-upstream origin master --force",
+    "prod": "npm run cp && npm run deploy-customised"
   },
   "devDependencies": {
     "eslint": "^4.13.1",

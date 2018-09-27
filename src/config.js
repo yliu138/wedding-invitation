@@ -9,7 +9,7 @@ const gallery = [ // galley image list
 
 export default {
   global: {
-    googleMapAPIKey: 'AIzaSyDSjYdBUN_NDRJQShxs0ugvMBV2goZvT2o',
+    googleMapAPIKey: 'AIzaSyCmTEoRqSDipsSYFAu5BWajRTDbSA0OQ7w',
     comment: {
       livere: {
         enable: true, // if false, not rendering livere comment component
