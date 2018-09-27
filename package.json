@@ -1,12 +1,12 @@
 {
   "name": "react-wedding-card",
   "description": "Simple Wedding Card by React.js",
-  "homepage": "https://uyu423.github.io/react-wedding-card",
+  "homepage": "https://yliu138.github.io/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uyu423/react-wedding-card.git"
+    "url": "git@github.com:yliu138/wedding-invitation.git"
   },
-  "author": "Yu Yongwoo",
+  "author": "Leo Liu",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
