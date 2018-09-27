@@ -30,7 +30,7 @@ export default {
       latitude: -37.8142665,
       longitude: 144.9696592,
     },
-    at: '09-30-2018 14:00',
+    at: '30-09-2018 14:00',
   },
   bridal: {
     name: 'Cindy',
@@ -39,16 +39,16 @@ export default {
     facebook: false, // if false, not showing facebook icon
     father: 'Chunhua Jiang',
     mother: 'Xiangjian Guan',
-    position: '장남',
+    position: ''
   },
   groom: {
-    name: '역곡동',
+    name: 'Leo',
     image: require('./Image/groom.jpeg'),
-    phone: '+821022222222',
-    facebook: 'https://www.facebook.com/luckyyowu',
-    father: '부천시',
-    mother: '원미구',
-    position: '차녀',
+    phone: '+61423226733',
+    facebook: false,
+    father: 'Chun Liu',
+    mother: 'Ming Yang',
+    position: '',
   },
   image: {
     header: require('./Image/header.jpg'),

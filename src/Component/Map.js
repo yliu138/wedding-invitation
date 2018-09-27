@@ -23,7 +23,7 @@ const GenerateGoogleMap = withScriptjs(withGoogleMap((props) => {
       <Marker position={{ lat: latitude, lng: longitude }}>
         <InfoWindow>
           <div>
-            <p className="lead text-left"><Badge>주소</Badge> {address}</p>
+            <p className="lead text-left"><Badge>Address</Badge> {address}</p>
           </div>
         </InfoWindow>
       </Marker>

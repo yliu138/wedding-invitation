@@ -35,8 +35,8 @@ export default function Header(props) {
               </small>
               &nbsp;{groom.name}
             </h3>
-            <h3>결혼식에 초대합니다.</h3>
-            <p className="lead pt-3">{moment(wedding.at, 'YYYY-MM-DD HH:mm').format('LLLL')}</p>
+            <h3>Welcome to our wedding!</h3>
+            <p className="lead pt-3">{wedding.at}</p>
             <p className="lead">{wedding.place.name}</p>
           </Col>
         </Row>
