@@ -25,20 +25,20 @@ export default {
   title: 'Wedding Invitation', // recomanded English
   wedding: {
     place: {
-      name: '예쁜 예식장 3F 아름다운홀',
-      address: '서울 영등포구 여의도동 60 63빌딩',
-      latitude: 37.51990006878117,
-      longitude: 126.94020220536675,
+      name: 'St Michael\'s Uniting Church',
+      address: '120 Collins St, Melbourne VIC 3000',
+      latitude: -37.8142665,
+      longitude: 144.9696592,
     },
-    at: '2018-01-27 12:00',
+    at: '09-30-2018 14:00',
   },
   bridal: {
-    name: '신사동',
+    name: 'Cindy',
     image: require('./Image/bridal.jpeg'),
-    phone: '+821011111111',
+    phone: '+61430055087',
     facebook: false, // if false, not showing facebook icon
-    father: '서울시',
-    mother: '강남구',
+    father: 'Chunhua Jiang',
+    mother: 'Xiangjian Guan',
     position: '장남',
   },
   groom: {
