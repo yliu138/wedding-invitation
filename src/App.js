@@ -14,6 +14,7 @@ export default function App() {
       <Screen.Header config={config} />
       <Screen.Place config={config} />
       <Screen.Profile config={config} />
+      <Screen.Gallery config={config} />
       <Screen.Footer />
     </Container>
   );
