@@ -51,4 +51,8 @@
   padding-right: 0;
 }
 
-
+.image-gallery .image-gallery-content {
+  max-width: 600px;
+    display: block;
+  margin: 0 auto;
+}
