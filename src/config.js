@@ -1,5 +1,5 @@
 const gallery = [ // galley image list
-  require('./Image/gallery/1.jpeg'),
+  // require('./Image/gallery/1.jpeg'),
 ];
 
 export default {
@@ -46,7 +46,7 @@ export default {
     position: '',
   },
   image: {
-    header: require('./Image/header.jpg'),
+    header: require('./Image/process.jpeg'),
     gallery: gallery.map(item => ({
       original: item,
       thumbnail: item,

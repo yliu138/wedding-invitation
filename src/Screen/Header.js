@@ -20,8 +20,9 @@ export default function Header(props) {
           <Col className="app-fluid">
             <div className="app-header d-flex justify-content-center align-items-center">
               <h2 className="mb-0">{title}</h2>
-            </div>
+            </div> 
             <img className="img-fluid" src={image.header} alt="header" />
+  
           </Col>
         </Row>
         <Row>
